@@ -34,7 +34,7 @@ spec:
   ports:
     - port: 8761
       name: http
-  clusterIP: None
+  clusterIP: None                 #head-less service
   selector:
     app: jhipster-registry
 ---
